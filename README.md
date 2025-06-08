@@ -43,24 +43,24 @@ All functional requirements and test cases are documented in:
 - **State Machine Diagram** – ECU behavior during session transitions
 
 ## Repository Structure
-uds-inverter-diagnostics/<br />
-├── documents/                      # All documentation and diagrams
-│   ├── requirements.md
-│   ├── state_machine.png
-│   ├── system_architecture.png
-│   └── use_case_diagram.png
-├── server_arduino_ecu/             # Embedded software (server)
-│   ├── uds_server.ino
-│   ├── uds_service_handlers.h
-│   └── uds_service_handlers.cpp
-│   └── README.md
-├── client_pc/                      # Python PC client (tester)
-│   ├── uds_client.py
-│   └── CAN_interface_config.py
-│   └── README.md
-├── tests/                          # Manual integration tests
-│   ├── test_case_definition.xlsx
-│   ├── logs/
+uds-inverter-diagnostics                                              /<br />
+├── documents/                      # All documentation and diagrams  /<br />
+│   ├── requirements.md                                               /<br />
+│   ├── state_machine.png                                             /<br />
+│   ├── system_architecture.png                                       /<br />
+│   └── use_case_diagram.png                                          /<br />
+├── server_arduino_ecu/             # Embedded software (server)      /<br />
+│   ├── uds_server.ino                                                /<br />
+│   ├── uds_service_handlers.h                                        /<br />
+│   └── uds_service_handlers.cpp                                      /<br />
+│   └── README.md                                                     /<br />
+├── client_pc/                      # Python PC client (tester)       /<br />
+│   ├── uds_client.py                                                 /<br />
+│   └── CAN_interface_config.py                                       /<br />
+│   └── README.md                                                     /<br />
+├── tests/                          # Manual integration tests        /<br />
+│   ├── test_case_definition.xlsx                                     /<br />
+│   ├── logs/                                                         /<br />
 └── README.md
 
 ## Future Improvements

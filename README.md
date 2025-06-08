@@ -43,7 +43,7 @@ All functional requirements and test cases are documented in:
 - **State Machine Diagram** – ECU behavior during session transitions
 
 ## Repository Structure
-uds-inverter-diagnostics/
+uds-inverter-diagnostics/<br />
 ├── documents/                      # All documentation and diagrams
 │   ├── requirements.md
 │   ├── state_machine.png

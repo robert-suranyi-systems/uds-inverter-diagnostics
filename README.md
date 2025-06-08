@@ -30,7 +30,7 @@ Bitrate: 500kbps
 CAN ID scheme: 0x7E0 (Tester), 0x7E8 (ECU response)
 
 ## System Architecture
-- [System Architecture Diagram](documents/system_architecture.png).
+- [System Architecture Diagram](documents/system_architecture.png)
 
 ## Functional Requirements & Test Plan
 All functional requirements and test cases are documented in:

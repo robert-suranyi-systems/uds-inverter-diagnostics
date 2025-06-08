@@ -34,8 +34,8 @@ CAN ID scheme: 0x7E0 (Tester), 0x7E8 (ECU response)
 
 ## Functional Requirements & Test Plan
 All functional requirements and test cases are documented in:
-- [`documents/requirements.md`](documents/requirements.md)
-- [`tests/test_case_definition.md`](tests/test_case_definition.md)
+- [Requirements](documents/requirements.md)
+- [Test Cases](tests/test_case_definition.md)
 
 ## Diagrams
 - **System Architecture** – Physical layout of tool + ECU

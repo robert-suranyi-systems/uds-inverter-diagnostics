@@ -68,4 +68,4 @@ uds-inverter-diagnostics                                              <br />
 - Connect physical sensors and actuator to mock inverter logic
 
 ## Author
-Róbert – Mechatronics Engineer | System Test Enthusiast | Automotive & Power Electronics
+Robert – Mechatronics Engineer | System Test Enthusiast | Automotive & Power Electronics

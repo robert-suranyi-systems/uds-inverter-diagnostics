@@ -9,7 +9,9 @@ Inverter ECUs in electric vehicles expose diagnostics via the Unified Diagnostic
 ## Purpose
 The goal is to create a functional and testable mock system that reflects real-world automotive diagnostic workflows.
 
-## UDS Services Implemented
+## Sessions Implemented
+
+## Services Implemented
 - `0x10` DiagnosticSessionControl
 - `0x27` SecurityAccess
 - `0x31` RoutineControl (e.g., fan activation)
@@ -18,6 +20,10 @@ The goal is to create a functional and testable mock system that reflects real-w
 - `0x85` ControlDTCSettings
 - `0x22` ReadDataByIdentifier (e.g., motor temperature, bus voltage)
 - `0x2E` WriteDataByIdentifier (e.g., drive mode control)
+
+## Routines Implemented
+
+## NRCs Implemented
 
 ## Technologies Used
 - **Arduino (bare-metal)** for UDS service (Server-ECU) simulation
@@ -46,6 +52,7 @@ All functional requirements and test cases are documented in:
 uds-inverter-diagnostics                                              <br />
 ├── documents/                      # All documentation and diagrams  <br />
 │   ├── requirements.md                                               <br />
+│   ├── requirements.xlsx                                             <br />
 │   ├── state_machine.png                                             <br />
 │   ├── system_architecture.png                                       <br />
 │   └── use_case_diagram.png                                          <br />
